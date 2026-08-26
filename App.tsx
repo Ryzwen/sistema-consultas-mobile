@@ -15,24 +15,24 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import { RootStackParamList } from "./src/navigation/types";
+import { RootStackParamList } from "./scr/src/navigation/types";
 
 // Tela inicial
-import HomeScreen from "./src/screens/HomeScreen";
+import HomeScreen from "./scr/src/screens/HomeScreen";
 
 // Fluxo Paciente
-import LoginPacienteScreen from "./src/screens/paciente/LoginPacienteScreen";
-import CadastroPacienteScreen from "./src/screens/paciente/CadastroPacienteScreen";
-import MinhasConsultasScreen from "./src/screens/paciente/MinhasConsultasScreen";
-import EscolhaEspecialidadeScreen from "./src/screens/paciente/EscolhaEspecialidadeScreen";
-import EscolhaMedicoScreen from "./src/screens/paciente/EscolhaMedicoScreen";
-import AgendarConsultaScreen from "./src/screens/paciente/AgendarConsultaScreen";
+import LoginPacienteScreen from "./scr/src/screens/paciente/LoginPacienteScreen";
+import CadastroPacienteScreen from "./scr/src/screens/paciente/CadastroPacienteScreen";
+import MinhasConsultasScreen from "./scr/src/screens/paciente/MinhasConsultasScreen";
+import EscolhaEspecialidadeScreen from "./scr/src/screens/paciente/EscolhaEspecialidadeScreen";
+import EscolhaMedicoScreen from "./scr/src/screens/paciente/EscolhaMedicoScreen";
+import AgendarConsultaScreen from "./scr/src/screens/paciente/AgendarConsultaScreen";
 
 // Fluxo Medico
-import LoginMedicoScreen from "./src/screens/medico/LoginMedicoScreen";
-import CadastroMedicoScreen from "./src/screens/medico/CadastroMedicoScreen";
-import PerfilMedicoScreen from "./src/screens/medico/PerfilMedicoScreen";
-import ConsultasMedicoScreen from "./src/screens/medico/ConsultasMedicoScreen";
+import LoginMedicoScreen from "./scr/src/screens/medico/LoginMedicoScreen";
+import CadastroMedicoScreen from "./scr/src/screens/medico/CadastroMedicoScreen";
+import PerfilMedicoScreen from "./scr/src/screens/medico/PerfilMedicoScreen";
+import ConsultasMedicoScreen from "./scr/src/screens/medico/ConsultasMedicoScreen";
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
